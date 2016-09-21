@@ -1,0 +1,86 @@
+#thetable {
+  width: 310px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+tr {
+  width: 310px;
+  height: 100px;
+}
+
+#name1 {
+  line-height: 90px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#name2 {
+  line-height: 90px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#name3 {
+  line-height: 90px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#name4 {
+  line-height: 90px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#name5 {
+  line-height: 90px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#name6 {
+  line-height: 90px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#name7 {
+  line-height: 90px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#name8 {
+  line-height: 90px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#name9 {
+  line-height: 90px;
+  text-align: center;
+  font-size: 20px;
+}
+
+td {
+  color: #D3D3D3;
+}
+
+td:hover {
+    background-color: pink;
+}
+
+nav {
+  height: 58px;
+}
+
+#startbutton {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+
+#libby {
+  margin-top: 5px;
+}
