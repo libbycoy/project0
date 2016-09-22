@@ -1,19 +1,23 @@
 #thetable {
-  width: 310px;
+  /*width: 310px;*/
   margin: 0 auto;
   margin-top: 80px;
+  width: auto !important;
 }
 
 tr {
-  width: 310px;
-  height: 100px;
+  /*width: 310px;*/
+  /*height: 100px;*/
 }
 
 td {
   /*border: 1px solid red !important;*/
-  line-height: 90px !important;;
-  text-align: center !important;;
-  font-size: 20px !important;;
+  line-height: 90px !important;
+  text-align: center !important;
+  font-size: 20px !important;
+  width: 110px;
+  height: 110px;
+
 }
 
 td {
@@ -40,5 +44,8 @@ nav {
 
 #message {
   color: red;
-  font-size: 30px;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
 }

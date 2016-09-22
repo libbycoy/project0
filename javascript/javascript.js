@@ -16,21 +16,27 @@ $( document ).ready( function() {
     var num8 = $('#name8').text();
     var num9 = $('#name9').text();
 
-    if ((num1 && num1 === num2) && (num2 === num3)) {
-    winner = num1;
-  } else if ((num2 && num2 === num5) && (num5 === num8)) {
-    winner = num2;
-  } else if ((num3 && num3 === num6) && (num6 === num9)) {
+    if ((num1.length === 1 && num1 === num2) && (num2 === num3)) {
+      winner = num1;
+  } else if ((num2.length === 1 && num2 === num5) && (num5 === num8)) {
+      winner = num2;
+  } else if ((num3.length === 1 && num3 === num6) && (num6 === num9)) {
     winner = num3;
-  } else if ((num1 && num1 === num4) && (num4 === num7)) {
+  } else if ((num1.length === 1 && num1 === num4) && (num4 === num7)) {
     winner = num1;
-  } else if ((num1 && num1 === num5) && (num5 === num9)) {
-    winner = num1;
-  } else if ((num3 && num3 === num5) && (num5 === num7)) {
-    winner = num3;
+  } else if ((num1.length === 1 && num1 === num5) && (num5 === num9)) {
+      winner = num1;
+  } else if ((num3.length === 1 && num3 === num5) && (num5 === num7)) {
+      winner = num3;
+  } else if ((num4.length === 1 && num4 === num5) && (num5 === num6)) {
+      winner = num4;
+  } else if ((num7.length === 1 && num7 === num8) && (num8 === num9)) {
+      winner = num3;
   }
-
-  };
+  if (winner.length === 1) {
+  $('#message').html('winner is ' + winner + '!' );
+  }
+};
 
   var playMove = function (cell) {
 
@@ -46,13 +52,9 @@ $( document ).ready( function() {
         $(cell).val('o');
         $(cell).text('o');
 
-     }
-
-      if ( turn === 8 ) {
-        console.log('No one has won! Start again.')
-        reset();
+     } if ( turn === 8 && $('#message').html('') ) {
+        $('#message').html( 'No one has one! Start again!' );
       }
-
 
       turn++;
 
@@ -63,6 +65,7 @@ $( document ).ready( function() {
   var reset = function () {
     turn = 0;
     $('td').text('click');
+    $('#message').html('');
   };
 
   $('button').on('click', function() {
@@ -71,12 +74,12 @@ $( document ).ready( function() {
 
   $('td').on('click', function() {
 
-    // play move function
+    if (winner.length === 1) {
+      return;
+    }
+
     playMove(this);
 
-    if ($(winner).text().length === 1) {
-    $('#message').html('winner is ' + winner );
-  };
   });
 
 });
