@@ -64,6 +64,7 @@ $( document ).ready( function() {
 
   var reset = function () {
     turn = 0;
+    winner = '';
     $('td').text('click');
     $('#message').html('');
   };
