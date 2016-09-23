@@ -1,38 +1,15 @@
-# Markdown Intro in h1
+# Tic Tac Toe
 
-We can have **bold** text and *italic* text. Underscores __also__ _work_.
+The following game is **Tic Tac Toe** which I created at [General Assembly](http://generalassembl.ly/).
 
-[Link to GA](http://generalassembl.ly/)
+The game is stuctured like a standard 2-player Tic Tac Toe game. I used Jquery's `().on('click')` function for the click features. Players can not play two times in a row and players can not change their decision after clicking.
 
-http://yahoo.com/
+## Key Features
+* Boostrap interface
+* Start again button
+* 2-player game
+* Notification of win
+* Notification of draw
+* Prevention of clicking same button twice
 
-make a link to the readme file in the html of the live site.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-## More Details in h2
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## Lists
-### Unordered
-* Groucho
-* Harpo
-* Chico
-
-### Ordered
-1. Groucho
-2. Harpo
-3. Chico
-
-![Bill Murray](http://fillmurray.com/150/150)
-
-As a wise man once said:
-> ALL YOUR BASE ARE BELONG TO US
-
-Javascript has many quirks such as `Nan`
+### Enjoy!

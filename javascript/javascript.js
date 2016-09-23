@@ -67,6 +67,9 @@ $( document ).ready( function() {
     winner = '';
     $('td').text('click');
     $('#message').html('');
+    $('td').removeClass('selected');
+    $('td').addClass('fade');
+    $('td').addClass('grow');
   };
 
   $('button').on('click', function() {
@@ -74,6 +77,11 @@ $( document ).ready( function() {
   });
 
   $('td').on('click', function() {
+
+    $(this).addClass('selected');
+    $(this).removeClass('fade');
+    $(this).removeClass('grow');
+
 
     if (winner.length === 1) {
       return;

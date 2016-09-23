@@ -17,16 +17,34 @@ td {
   font-size: 20px !important;
   width: 110px;
   height: 110px;
+}
 
+.fade
+{
+        opacity:0.6;
+}
+.fade:hover {
+        opacity:1;
+}
+
+.grow:hover {
+        -webkit-transform: scale(1.02);
+        -ms-transform: scale(1.02);
+        transform: scale(1.02);
 }
 
 td {
   color: #D3D3D3;
+  background-color: #F743FF;
 }
 
-td:hover {
-    background-color: pink;
+.selected {
+    background-color: #F743FF;
 }
+
+/*td:hover {
+    background-color: pink;
+}*/
 
 nav {
   height: 58px;
@@ -43,7 +61,7 @@ nav {
 }
 
 #message {
-  color: red;
+  color: #F743FF;
   font-size: 20px;
   margin: 0 auto;
   text-align: center;
