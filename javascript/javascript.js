@@ -16,24 +16,7 @@ $( document ).ready( function() {
     var num8 = $('#name8').text();
     var num9 = $('#name9').text();
 
-/*
-    var winConditions = [
-      [num1, num2, num3]
-    ];
-
-    var winX = ['x','x','x'].toString();
-    var winO = ['o','o','o'];
-
-    for (var i = 0; i < winConditions.length; i++) {
-      if( winConditions[i].toString() === winX ) {
-        winner = 'x'
-      }
-
-    }
-*/
-
-
-    if ((num1.length === 1 && num1 === num2) && (num2 === num3)) {
+  if ((num1.length === 1 && num1 === num2) && (num2 === num3)) {
       winner = num1;
   } else if ((num2.length === 1 && num2 === num5) && (num5 === num8)) {
       winner = num2;

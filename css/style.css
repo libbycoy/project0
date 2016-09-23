@@ -1,17 +1,10 @@
 #thetable {
-  /*width: 310px;*/
   margin: 0 auto;
   margin-top: 80px;
   width: auto !important;
 }
 
-tr {
-  /*width: 310px;*/
-  /*height: 100px;*/
-}
-
 td {
-  /*border: 1px solid red !important;*/
   line-height: 130px !important;
   text-align: center !important;
   font-size: 20px !important;
@@ -19,22 +12,22 @@ td {
   height: 150px;
 }
 
-.fade
-{
-        opacity:0.6;
+.fade {
+    opacity:0.6;
 }
+
 .fade:hover {
-        opacity:1;
+    opacity:1;
 }
 
 .grow:hover {
-        -webkit-transform: scale(1.02);
-        -ms-transform: scale(1.02);
-        transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
 }
 
 td {
-  color: #D3D3D3;
+  color: white;
   background-color: #F743FF;
 }
 
