@@ -12,11 +12,11 @@ tr {
 
 td {
   /*border: 1px solid red !important;*/
-  line-height: 90px !important;
+  line-height: 130px !important;
   text-align: center !important;
   font-size: 20px !important;
-  width: 110px;
-  height: 110px;
+  width: 150px;
+  height: 150px;
 }
 
 .fade
